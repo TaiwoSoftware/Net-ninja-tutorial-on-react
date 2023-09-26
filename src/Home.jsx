@@ -1,34 +1,27 @@
-import { useEffect, useState } from "react";
 import BlogList from "./BlogList";
+import useFetch from "./useFetch";
 
 const Home = () => {
-  const [blogs, setBlogs] = useState(null);
-  const [isPending, setIsPending] = useState(true);
-
-  useEffect(() => {
-    fetch(
-      "https://api.themoviedb.org/3/discover/movie?api_key=78bcd9519ba51e4395c843281cef3d37"
-    )
-      .then((res) => {
-        if(!res.ok) {
-            throw Error('could not fetch the data for that resource')
-        }
-        return res.json();
-      })
-
-      .then((data) => {
-        console.log(data);
-        setBlogs(data);
-        setIsPending(false);
-      })
-      .catch(err=> {
-            console.log(err.message);
-      })
-  }, []);
+  const {
+    data: blogs,
+    isPending,
+    error,
+  } = useFetch(
+    "http://localhost:3000/blogs"
+  );
   return (
     <div className="home">
+      {error && <div>{error}</div>}
       {isPending && <div>Loading...</div>}
       {blogs && <BlogList blogs={blogs} title="All Blogs" />}
+      {/* <h2>All Blogs!</h2>
+      <div className="blog-preview">
+        <h2>My First Blog</h2>
+        <p>Written by Taiwo</p>
+      </div>
+      <div className="blog-preview">
+        <h2>Opening Party!</h2>
+        <p>Written by TaiwoSoftware</p> */}
     </div>
     // 018870261
   );
