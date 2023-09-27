@@ -1,14 +1,14 @@
 {
     "blogs": [
         {
-            "title": "My First Blog",
-            "body": "Why do we use\n It is a long established fact that a reader will be distracted",
-            "author":"Mario",
+            "title": "Bloggers",
+            "body": "Bloggers are people who write and publish content on blogs. Blogs are websites that are typically updated regularly with new posts. Blog posts can be about anything, from personal experiences to news and current events to specialized topics like technology or fashion.\n Bloggers play an important role in the internet ecosystem. They provide high-quality content that people can learn from, be entertained by, and connect with. Bloggers also help to spread the word about new products and services, and they can be a powerful tool for businesses and organizations.\nThere are many different types of bloggers. Some bloggers write about their personal lives, while others focus on specific topics like travel, food, or fashion. Some bloggers are professional writers, while others are just ordinary people who are passionate about sharing their thoughts and ideas.\nNo matter what type of blogger they are, all bloggers have one thing in common: they are passionate about their work. They love to write and share their ideas with the world. And they are always looking for new ways to improve their craft and reach a wider audience",
+            "author":"Taiwo",
             "id":1
         },
         {
             "title": "Opening Party",
-            "body":"Why do we use it\n It is a long established fact that a reader will be distracted",
+            "body":"The music you play and the lighting you use can have a big impact on the mood of your party. So before guests arrive, take some time to set the scene. Choose music that is upbeat and fun, and create a warm and inviting atmosphere with your lighting.\n When your guests start to arrive, make sure to greet them warmly and welcome them to your party. This will help them to feel comfortable and relaxed. You can also introduce them to other guests they may not know.\nOnce your guests have arrived, it's a good idea to serve some light refreshments. This will help to keep them entertained and socializing while you wait for everyone to arrive. You can serve simple things like drinks and snacks, or you can get more creative with your food and beverage offerings.\nOnce everyone has arrived and had a chance to mingle, it's time to get the party started with a fun activity. This could be anything from playing a game to dancing to watching a movie. Choose an activity that you think your guests will enjoy, and make sure to get involved yourself.\nAs the host, it's important to be attentive to your guests and make sure that everyone is having a good time. Circulate around the room and make conversation, and be sure to keep the refreshments flowing. If you see anyone who seems to be having a difficult time, make an effort to include them and make them feel welcome.",
             "author":"Kelvin",
             "id":2
         }
