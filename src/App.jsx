@@ -1,4 +1,5 @@
 import "./App.css";
+import BlogDetails from "./BlogDetails";
 import Create from "./Create";
 import Home from "./Home";
 import Navbar from "./Navbar";
@@ -15,6 +16,9 @@ const App = () => {
             </Route>
             <Route path="/create">
               <Create />
+            </Route>
+            <Route path="/blogs/:id">
+              <BlogDetails />
             </Route>
           </Switch>
         </div>
